@@ -1,0 +1,10 @@
+version: '3'
+services:
+  eureka-service:
+    build: ./
+    ports:
+      - "80:80"
+    environment:
+      - CONFIG_HOST=##
+
+
